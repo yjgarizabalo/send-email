@@ -36,7 +36,7 @@ router.post('/send-email', async (req, res) => {
 
     console.log('Message sent', info.messageId)
 
-    res.redirect('/enviado.html')
+   res.redirect('/enviado.html')
 })
 
 module.exports = router
